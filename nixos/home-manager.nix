@@ -81,11 +81,12 @@ in
         ];
       };
       "org/gnome/shell/extensions/user-theme" = {
-        "name" = "Orchis-Dark";
+        #"name" = "Orchis-Dark";
+        "name" = "";
       };
       "org/gnome/shell/extensions/dash-to-panel" = {
         "animate-appicon-hover" = true;
-        "panel-lengths" = "{\"0\":80}";
+        "panel-lengths" = "{\"0\":100}";
         "panel-element-positions" = "{\"0\":[{\"element\":\"showAppsButton\",\"visible\":true,\"position\":\"stackedTL\"},{\"element\":\"activitiesButton\",\"visible\":false,\"position\":\"stackedTL\"},{\"element\":\"leftBox\",\"visible\":true,\"position\":\"stackedTL\"},{\"element\":\"taskbar\",\"visible\":true,\"position\":\"stackedTL\"},{\"element\":\"centerBox\",\"visible\":true,\"position\":\"stackedBR\"},{\"element\":\"rightBox\",\"visible\":true,\"position\":\"stackedBR\"},{\"element\":\"dateMenu\",\"visible\":true,\"position\":\"stackedBR\"},{\"element\":\"systemMenu\",\"visible\":true,\"position\":\"stackedBR\"},{\"element\":\"desktopButton\",\"visible\":false,\"position\":\"stackedBR\"}]}";
       };
       "org/gnome/desktop/wm/preferences" = {
